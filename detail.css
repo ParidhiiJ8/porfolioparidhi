@@ -1,0 +1,237 @@
+body{
+height: 100%;
+margin: 0;
+padding: 0;
+font-family:'Times New Roman', Times, serif;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url('https://wallpapercat.com/w/full/9/1/3/797153-3840x2160-desktop-4k-pastel-colors-background-photo.jpg');
+}
+
+.first{
+display: flex;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 0;
+font-size:50px;
+font-weight: bolder;
+background-image: url('https://cdn.pixabay.com/photo/2022/09/21/17/02/blue-background-7470781_1280.jpg');
+opacity: 0.7;
+background-blend-mode: lighten;
+
+text-align:center;
+align-items: center;
+justify-content: center;
+color:rgb(255, 255, 255);
+height:75px;
+padding: 8px 15px 15px; 
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    text-align: right;
+    margin: 10px;
+    justify-content:right;
+    
+}
+
+nav ul li{
+    margin: 0 25px;
+    color:black;
+    
+}
+
+nav ul li a{
+   text-decoration: none;
+    color:black;
+    
+}
+
+nav ul li a:hover{
+    color:blueviolet;
+    font-size: 1.05rem;
+}
+
+
+.first1{
+display: flex;
+justify-content:space-around;
+margin: 100px 0;
+
+}
+
+.first1 div{
+    width: 30%;
+    text-align: center;
+}
+
+
+.rightcol{      
+font-size: 2.5rem;
+
+}
+
+.name{
+    color:rgb(22, 113, 188);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.leftcol img{
+    box-shadow: 10px 10px 5px green outset;
+    width: 450px;
+    height: 550px;
+} 
+
+
+#second2 {
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh; /* Adjust height based on content */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align */
+    justify-content: center;
+    padding: 20px 0; /* Add padding for spacing */
+}
+
+#second2 h1 {
+    font-size: 2rem;
+    color: darkblue;
+    margin-bottom: 20px; /* Adjust spacing below the heading */
+    font-weight: bolder;
+    text-align: center;
+}
+
+.second2 p {
+    font-size: larger;
+    line-height: 1.6; /* Improve readability */
+    text-align: center;
+    font-size: medium;
+    margin: 0 10px; /* Add slight side margin for smaller screens */
+}
+
+.hr {
+    border: 0;
+    background: rgb(0, 0, 0);
+    height: 0.3px;
+    margin: 0 40px; /* Reduce margin to tighten the gap */
+    /* width: 80%; Optional: Align the width to match content */
+}
+
+#third3 {
+    margin: 20px auto; /* Reduce gap above "Skills" */
+    text-align: center;
+   
+}
+#third3 h1{
+    color: darkblue;
+}
+
+#third3 p {
+    font-size: larger;
+    line-height: 1.6; /* Improve readability */
+    margin: 0 10px;
+    font-size: medium;
+    text-align: center; /* Add slight side margin for smaller screens */
+}
+
+.div{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+#fourth4{
+    margin: 20px auto; /* Reduce gap above "Skills" */
+    text-align: center;
+    
+
+}
+
+#box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(245, 239, 239);
+    flex-basis: content;
+    background:rgb(188, 98, 140) ;
+    flex-basis: 100%;
+}
+
+.color{
+    color: darkblue;
+
+    
+}
+
+
+#fouth4 p{
+    line-height: 1.6;
+    text-align: center;
+    line-height: 1.6;
+}
+
+#fouth4 ul li{
+    text-decoration: none;
+}
+
+.fontsmall{
+    font-size: medium;
+    color: darkgreen;
+}
+
+.fontlarge{
+    font-size: large;
+    text-align: center;
+}
+
+footer{
+background-color: cadetblue;
+opacity: 5;
+height: 150px;
+}
+
+
+
+#conme{
+    font-size: 2rem;
+    text-align: center;
+    color: darkblue;
+margin:30px 80px;
+}
+
+.footerlist{
+  display:flex;  
+  justify-content:space-around;
+  padding: 20px;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+
+.footerlist a:hover{
+    color:rgb(24, 21, 26);
+    opacity: 0.9;
+   
+}
+ 
+ 
+
+#img{
+    height: 40px;
+    width: 45px;
+}
+
+#buttons{
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    background-color: cadetblue;
+}
+
